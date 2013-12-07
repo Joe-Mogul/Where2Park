@@ -25,12 +25,10 @@ public class MainActivity extends Activity {
 		.title("Hello world"));
 
 		PolygonOptions rectOptions = new PolygonOptions()
-		.add(new LatLng(37.35, -122.0),
-				new LatLng(32.777559, 35.023936),
-				new LatLng(32.777559, 35.023906),
-				new LatLng(32.777539, 35.023936),
-				new LatLng(32.777539, 35.023906));
-
+		.add(   new LatLng(32.778288304674106, 35.02170771360397),
+				new LatLng(32.77796356597343, 35.022053718566895),
+				new LatLng(32.77793424922683, 35.02204030752182),
+				new LatLng(32.77825898803451, 35.02167820930481));
 		//Get back the mutable Polygon
 		Polygon polygon = mMap.addPolygon(rectOptions);
 	}
